@@ -31,7 +31,7 @@
                                         &bull;15.6" HD <br>
                                         &bull;Battery life: Up to 8 hours and 30 minutes 3
                                     </p>
-                                    {{-- <a href="{{ route('ventes.index') }}">Voir Plus </a> --}}
+                                    <a class="voir-plus" href="{{ route('login') }}">S'incrire pour Voir Plus </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -60,7 +60,7 @@
                                         &bull;16 GB DDR4 <br>
                                         &bull;512 GB SSD <br>
                                     </p>
-                                    {{-- <a href="#">Voir Plus </a> --}}
+                                    <a class="voir-plus" href="{{ route('login') }}">S'incrire pour Voir Plus </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -88,7 +88,7 @@
                                         Minimum dimensions (W x D x H): 376 x 153 x 19 mm <br>
                                         What's in the box: Wireless keyboard; 2 x AAA batteries; Quick start guide; Warranty card; R.E.D. Card (EMEA only)
                                     </p>
-                                    {{-- <a href="#">Voir Plus </a> --}}
+                                    <a class="voir-plus" href="{{ route('login') }}">S'incrire pour Voir Plus </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -114,7 +114,7 @@
                                         &bull;Minimum dimensions (W x D x H): 107 x 60.5 x 29.31 mm <br>
                                         &bull;What's in the box: Wirelesss Mouse; Quick Start Guide; Warranty Card; 1 x AA battery
                                     </p>
-                                    {{-- <a href="#">Voir Plus </a> --}}
+                                    <a class="voir-plus" href="{{ route('login') }}">S'incrire pour Voir Plus </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -138,7 +138,7 @@
                                         Mollitia commodi, optio magnam, repellendus eveniet porro a
                                         corporis quis eligendi harum nesciunt beatae fuga iure veritatis
                                         blanditiis error vel ab laboriosam! </p>
-                                    {{-- <a href="#">Voir Plus</a> --}}
+                                        <a class="voir-plus" href="{{ route('login') }}">S'incrire pour Voir Plus </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -161,7 +161,7 @@
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi maxime quisquam
                                         fugareiciendis ipsa cupiditate expedita sequi assumenda numquam! Saepe quod
                                         reiciendiseaque officia recusandae delectus vel impedit unde ipsam? </p>
-                                    {{-- <a href="#">Voir Plus</a> --}}
+                                        <a class="voir-plus" href="{{ route('login') }}">S'incrire pour Voir Plus </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -185,7 +185,7 @@
                                         Quasi maxime quisquam fuga reiciendis ipsa cupiditate expeditasequi assumenda
                                         numquam! Saepe quod reiciendis eaque officia recusandae delectus vel impedit unde
                                         ipsam? </p>
-                                    {{-- <a href="#">Voir Plus </a> --}}
+                                        <a class="voir-plus" href="{{ route('login') }}">S'incrire pour Voir Plus </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -209,7 +209,7 @@
                                         Quasi maxime quisquam fuga reiciendis ipsa cupiditate expedita sequi assumenda
                                         numquam! Saepe quod reiciendis eaque officia recusandae delectus vel impedit unde
                                         ipsam? </p>
-                                    {{-- <a href="#">Voir Plus </a> --}}
+                                        <a class="voir-plus" href="{{ route('login') }}">S'incrire pour Voir Plus </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -220,9 +220,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="nav navbar-nav navbar-right inscrire">
-                <a href="{{ route('login') }}" class="hover-btn-new log orange">S'incrire pour voir plus</a>
             </div>
         </div>
         <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">

@@ -4118,6 +4118,10 @@ a.link-style3 {
     font-size: 15px;
 }
 
+.text-bg a {
+    
+}
+
 .text-bg figure img {
     width: 100%;
     padding-top: 70px;
